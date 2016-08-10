@@ -14,6 +14,9 @@ export PATH=$CHOCOLATEY_HOME/bin:$PATH
 export EMACS_HOME=~/.emacs.d
 export PATH=$EMACS_HOME/bin:$PATH
 
+# Emacs Cask
+export PATH="/home/.cask/bin:$PATH"
+
 # Java
 export PATH=$JAVA_HOME/bin:$PATH
 
