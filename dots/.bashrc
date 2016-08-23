@@ -133,23 +133,23 @@
                  echo -ne \"\${bar}Path: \w\n\"
                  echo -ne \"\${bar}# \[\e[0m\]\"
              )"
-             PS2="   > "
-             function check_return_code {
-                 retv=$?
-                 if [[ ! $check_return_code ]] ; then
-                     check_return_code=1
-                     return
-                 fi
-                 if [[ $retv -eq 0 ]] ; then
-                     echo -ne "\n\e[0;32m ✔ \e[0;37mSuccess (retv = $retv)\n\e[2;32m "
-                 else
-                     echo -ne "\n\e[0;33m ✗ \e[0;37mFailure (retv = $retv)\n\e[2;33m "
-                 fi
-                 for (( x=1; x<$COLUMNS; x++ )) ; do echo -ne "\e(0q\e(B" ; done
-                 echo -ne "\e[0m\n"
-             }
-             export PROMPT_COMMAND
-             PROMPT_COMMAND="check_return_code; $PROMPT_COMMAND"
+             # PS2="   > "
+             # function check_return_code {
+             #     retv=$?
+             #     if [[ ! $check_return_code ]] ; then
+             #         check_return_code=1
+             #         return
+             #     fi
+             #     if [[ $retv -eq 0 ]] ; then
+             #         echo -ne "\n\e[0;32m ✔ \e[0;37mSuccess (retv = $retv)\n\e[2;32m "
+             #     else
+             #         echo -ne "\n\e[0;33m ✗ \e[0;37mFailure (retv = $retv)\n\e[2;33m "
+             #     fi
+             #     for (( x=1; x<$COLUMNS; x++ )) ; do echo -ne "\e(0q\e(B" ; done
+             #     echo -ne "\e[0m\n"
+             # }
+             # export PROMPT_COMMAND
+             # PROMPT_COMMAND="check_return_code; $PROMPT_COMMAND"
 
              ;;
          dumb|*)
