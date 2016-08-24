@@ -1,0 +1,9 @@
+#!/bin/sh
+
+#
+# Cygwin here
+#
+
+cygpath -w "$(pwd)" | tr -d '\n' > /dev/clipboard
+/root/startup_cygwin.exe
+echo > /dev/clipboard
