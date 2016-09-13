@@ -89,7 +89,13 @@ Android Studio
 | アクション | キーマップ | 備考 |
 |------------|------------|------|
 | Backspace | Ctrl + H | 既存の `Shift+Backspace` は削除 |
+| Auto-Indent Lines | Ctrl + Alt + \\ | - |
 | Find Action | M + x | - |
+
+
+### File -> Settings -> Editor -> General -> Appearance
+
+* Show method separators: **ON**
 
 
 ### File -> Settings -> Editor -> Colors & Fonts
@@ -112,6 +118,13 @@ Android Studio
     * Foreground: **#5394EC**
 * Warning
     * Foreground: **#D6BF55**
+
+
+### File -> Settings -> Plugins
+
+* Add Plugins
+    * [ADB Idea](https://github.com/pbreault/adb-idea)
+
 
 ### File - Settings -> Build, Execution, Deployment -> Instant Run
 
