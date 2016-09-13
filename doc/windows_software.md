@@ -23,6 +23,7 @@ Windows用ソフトウェア
 * [Paint.NET ※](http://www.getpaint.net/index.html)
 * [Tera Term](https://ttssh2.osdn.jp/)
 * [LiveReload](http://livereload.com/)
+* [DeskDock Server](http://fdmobileinventions.blogspot.jp/p/deskdock-server.html)
 
 
 ストアアプリ
