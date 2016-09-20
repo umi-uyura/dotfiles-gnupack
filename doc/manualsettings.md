@@ -82,6 +82,12 @@ Android Studio
     * Override default fonts by (not recommemded): **Yu Gotchic UI** , Size: **14**
 
 
+### File -> Settings -> Appearance & Behavior -> System Settings
+
+* Startup/Shutdown
+    * Reopen last project on startup: **OFF**
+
+
 ### File -> Settings -> Keymap
 
 * Keymaps: **Emacs**をベースに新しいキーマップを作成
