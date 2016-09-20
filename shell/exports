@@ -17,7 +17,7 @@ export EMACS_HOME=~/.emacs.d
 export PATH=$EMACS_HOME/bin:$PATH
 
 # Emacs Cask
-export PATH="/home/.cask/bin:$PATH"
+export PATH=/home/.cask/bin:$PATH
 
 # Java
 export PATH=$(cygpath "$JAVA_HOME")/bin:$PATH
