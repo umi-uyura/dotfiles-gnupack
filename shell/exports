@@ -9,7 +9,7 @@ export DOTFILES_ROOT=~/dotfiles
 export PATH=$DOTFILES_ROOT/bin:$PATH
 
 # Chocolatey
-export CHOCOLATEY_HOME=/c/ProgramData/chocolatey
+export CHOCOLATEY_HOME=$(cygpath $ChocolateyInstall)
 export PATH=$CHOCOLATEY_HOME/bin:$PATH
 
 # Emacs
