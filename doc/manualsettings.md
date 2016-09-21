@@ -135,3 +135,13 @@ Android Studio
 ### File - Settings -> Build, Execution, Deployment -> Instant Run
 
 * Show Instant Run status notifications: **ON**
+
+
+
+Hain
+----
+
+### Plugin
+
+* hain-plugin-pc
+* hain-plugin-cmd
