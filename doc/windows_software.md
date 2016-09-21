@@ -11,6 +11,7 @@ Windows用ソフトウェア
 * [Hain ※](https://github.com/appetizermonster/hain)
 * [Google 日本語入力 ※](https://www.google.co.jp/ime/)
 * [WinQuickLook](https://github.com/shibayan/WinQuickLook)
+* [Seer ※](http://1218.io/)
 * [Simplenote for Electron](https://github.com/Automattic/simplenote-electron)
 * [Typora](http://www.typora.io/)
 * [astah* community ※](http://astah.change-vision.com/ja/product/astah-community.html)
