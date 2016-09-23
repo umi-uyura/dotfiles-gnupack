@@ -97,6 +97,7 @@ Android Studio
 | Backspace | Ctrl + H | 既存の `Shift+Backspace` は削除 |
 | Auto-Indent Lines | Ctrl + Alt + \\ | - |
 | Find Action | M + x | - |
+| Tab | M + i | - |
 
 
 ### File -> Settings -> Editor -> General -> Appearance
