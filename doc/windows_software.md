@@ -35,3 +35,4 @@ Windows用ソフトウェア
 * [Mevy](http://mevy.snowcait.info/)
 * LINE
 * Wunderlist
+* [Pixlr](https://pixlr.com/)
