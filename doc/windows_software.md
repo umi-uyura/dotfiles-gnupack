@@ -4,7 +4,7 @@ Windows用ソフトウェア
 ダウンロード
 ------------
 
-※Chocolateyにあるものが古いもの
+※Chocolateyにあるものが古い、インストールできないなど
 
 * [gnupack](http://gnupack.osdn.jp/docs/UsersGuide.html)
 * [Chocolatey](https://chocolatey.org/)
@@ -22,6 +22,7 @@ Windows用ソフトウェア
     * インストールするためにJDK7(Chocolateyでインストール可)が必要
 * [XMind ※](https://jp.xmind.net/)
 * [Paint.NET ※](http://www.getpaint.net/index.html)
+* [FileOptimizer ※](http://nikkhokkho.sourceforge.net/static.php?page=FileOptimizer)
 * [Tera Term](https://ttssh2.osdn.jp/)
 * [LiveReload](http://livereload.com/)
 * [DeskDock Server](http://fdmobileinventions.blogspot.jp/p/deskdock-server.html)
