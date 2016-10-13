@@ -132,6 +132,12 @@ Android Studio
     * Foreground: **#D6BF55**
 
 
+### File -> Settings -> Editor -> Inspections
+
+* Serialization issues
+    * Serializable class without 'serialVersionUID': **ON**
+
+
 ### File -> Settings -> Plugins
 
 * Add Plugins
