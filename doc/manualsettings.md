@@ -142,6 +142,7 @@ Android Studio
 
 * Add Plugins
     * [ADB Idea](https://github.com/pbreault/adb-idea)
+    * [DatabindingConvert](https://github.com/LiushuiXiaoxia/DatabindingConvert)
 
 
 ### File - Settings -> Build, Execution, Deployment -> Instant Run
