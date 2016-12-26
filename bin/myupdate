@@ -1,0 +1,142 @@
+#!/bin/sh
+
+#
+# My update constant
+#
+
+TAG_DOTFILES="dotfiles"
+TAG_DOTEMACS="dotemacs"
+TAG_EMACSCASK="emacscask"
+TAG_CHOCO="choco"
+TAGS=($TAG_DOTFILES $TAG_DOTEMACS $TAG_EMACSCASK $TAG_CHOCO)
+
+#
+# My update function
+#
+
+function usage()
+{
+  cat << EOF
+My update routine
+usage : $CMDNAME [option]
+   -u : upgrade the app there is updates
+        skip process, specify under tags
+EOF
+
+  for tag in "${TAGS[@]}"
+  do
+    echo "          ${tag}"
+  done
+
+  cat << EOF
+   -h : show usage
+EOF
+}
+
+function skiptag()
+{
+  SKIPTAGARRAY=(`echo $SKIPTAG | tr -s ',' ' '`)
+
+  for arg in "${SKIPTAGARRAY[@]}"
+  do
+    if [ "${arg}" = "$1" ]; then
+      return 0
+    fi
+  done
+
+  return 1
+}
+
+
+#
+# My update routine
+#
+
+while getopts :hu: OPT
+do
+  case $OPT in
+    u) echo "-u"
+       UPGRADE=0
+       SKIPTAG=$OPTARG
+       ;;
+    h) usage
+       exit 1
+       ;;
+    :) if [ "u" = "$OPTARG" ]; then
+         UPGRADE=0
+         break
+       fi
+       echo "ERROR $OPTARG"
+       exit 1
+       ;;
+    \?) usage
+       exit 1
+       ;;
+  esac
+done
+
+#
+# dotfiles
+#
+# skiptag "${TAG_DOTFILES}"
+# SKIP_DOTFILES=$?
+
+# if [ 0 -ne $SKIP_DOTFILES ]; then
+#   echo
+#   echo "### Checking for dotfiles updates ..."
+#   echo
+#   git -C ~/dotfiles remote show origin | grep 'pushes to master'
+# fi
+
+#
+# .emacs.d
+#
+# skiptag "${TAG_DOTEMACS}"
+# SKIP_DOTEMACS=$?
+
+# if [ 0 -ne $SKIP_DOTEMACS ]; then
+#   echo
+#   echo "### Checking for .emacs.d updates ..."
+#   echo
+#   git -C ~/.emacs.d remote show origin | grep 'pushes to master'
+# fi
+
+#
+# Emacs Cask
+#
+skiptag "${TAG_EMACSCASK}"
+SKIP_EMACSCASK=$?
+
+if [ 0 -ne $SKIP_EMACSCASK ]; then
+  if [ $UPGRADE ]; then
+    echo
+    echo "### Updating Emacs casks ..."
+    echo
+    cask update --path ~/.emacs.d/
+  else
+    echo
+    echo "### Checking for Emacs casks updates..."
+    echo
+    cask outdated --path ~/.emacs.d/
+  fi
+fi
+
+#
+# Chocolatey
+#
+skiptag "${TAG_CHOCO}"
+SKIP_CHOCO=$?
+
+if [ 0 -ne $SKIP_CHOCO ]; then
+  if [ $UPGRADE ]; then
+    echo
+    echo "### Updating Chocolatey packages ..."
+    echo
+    cup all -y
+  else
+    echo
+    echo "### Checking for Chocolatey updates ..."
+    echo
+    choco outdated
+  fi
+fi
