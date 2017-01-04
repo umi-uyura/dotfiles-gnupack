@@ -8,4 +8,5 @@ pip install numpy
 pip install pandas
 pip install python-dateutil
 pip install pytz
+pip install enum34
 pip install jsbeautifier
