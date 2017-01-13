@@ -37,3 +37,4 @@ Windows用ソフトウェア
 * LINE
 * Wunderlist
 * [Pixlr](https://pixlr.com/)
+* [CrystalDiskMark](http://crystalmark.info/software/CrystalDiskMark/)
