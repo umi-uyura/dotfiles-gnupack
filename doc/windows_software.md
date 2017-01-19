@@ -34,6 +34,7 @@ Windows用ソフトウェア
 * [Latermark for Pocket](https://twitter.com/latermarkapp)
 * 翻訳
 * [Mevy](http://mevy.snowcait.info/)
+* [Slack](https://slack.com/)
 * LINE
 * Wunderlist
 * [Pixlr](https://pixlr.com/)
