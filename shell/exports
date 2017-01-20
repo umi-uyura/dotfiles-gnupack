@@ -4,27 +4,9 @@
 # Windows User Home
 export WINUSER_HOME=$(cygpath $USERPROFILE)
 
-# dotfiles/bin
-export DOTFILES_ROOT=~/dotfiles
-export PATH=$DOTFILES_ROOT/bin:$PATH
-
-# Chocolatey
-export CHOCOLATEY_HOME=$(cygpath $ChocolateyInstall)
-export PATH=$CHOCOLATEY_HOME/bin:$PATH
-
 # Emacs
 export EMACS_HOME=~/.emacs.d
 export PATH=$EMACS_HOME/bin:$PATH
 
 # Emacs Cask
-export PATH=/home/.cask/bin:$PATH
-
-# Java
-export PATH=$(cygpath "$JAVA_HOME")/bin:$PATH
-
-# Android
-export ANDROID_HOME=$WINUSER_HOME/AppData/Local/Android/android-sdk
-export PATH=$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH
-
-# dex2jar tools
-export PATH=$CHOCOLATEY_HOME/lib/dex2jar/tools:$PATH
+export PATH=~/.cask/bin:$PATH
