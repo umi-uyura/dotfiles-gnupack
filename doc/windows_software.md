@@ -10,6 +10,7 @@ Windows用ソフトウェア
 * [Chocolatey](https://chocolatey.org/)
 * [Hain ※](https://github.com/appetizermonster/hain)
 * [Google 日本語入力 ※](https://www.google.co.jp/ime/)
+* [the_platinum_searcher ※](https://github.com/monochromegane/the_platinum_searcher)
 * [WinQuickLook](https://github.com/shibayan/WinQuickLook)
 * [Seer ※](http://1218.io/)
 * [Simplenote for Electron](https://github.com/Automattic/simplenote-electron)
