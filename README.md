@@ -70,6 +70,7 @@ Setting environment variables
 | dotfiles/bin | %GNUPACK_HOME%\dotfiles\bin | - |
 | Chocolatey | %ChocolateyInstall%\bin | Auto addition by Chocolatey |
 | Android tools | %ANDROID_HOME%\tools | - |
+| Android tools bin | %ANDROID_HOME%\tools\bin | - |
 | Android platform-tools | %ANDROID_HOME%\platform-tools | - |
 | Android build-tools | %ANDROID_HOME%\build-tools\24.0.3 | - |
 | Dex2Jar | %ChocolateyInstall%\lib\dex2jar\tools | - |
