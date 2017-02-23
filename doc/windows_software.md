@@ -24,7 +24,6 @@ Windows用ソフトウェア
 * [XMind ※](https://jp.xmind.net/)
 * [Paint.NET ※](http://www.getpaint.net/index.html)
 * [FileOptimizer ※](http://nikkhokkho.sourceforge.net/static.php?page=FileOptimizer)
-* [Tera Term](https://ttssh2.osdn.jp/)
 * [LiveReload](http://livereload.com/)
 * [DeskDock Server](http://fdmobileinventions.blogspot.jp/p/deskdock-server.html)
 
