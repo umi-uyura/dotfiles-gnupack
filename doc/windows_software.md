@@ -22,6 +22,7 @@ Windows用ソフトウェア
 * [Projectlibre ※](http://www.projectlibre.org/) ※Chocolatey版はインストールがうまくいかない
     * インストールするためにJDK7(Chocolateyでインストール可)が必要
 * [XMind ※](https://jp.xmind.net/)
+* [A5:SQL Mk-2](http://a5m2.mmatsubara.com/)
 * [Paint.NET ※](http://www.getpaint.net/index.html)
 * [FileOptimizer ※](http://nikkhokkho.sourceforge.net/static.php?page=FileOptimizer)
 * [LiveReload](http://livereload.com/)
