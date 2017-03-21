@@ -23,7 +23,7 @@ Windows用ソフトウェア
     * インストールするためにJDK7(Chocolateyでインストール可)が必要
 * [XMind ※](https://jp.xmind.net/)
 * [A5:SQL Mk-2](http://a5m2.mmatsubara.com/)
-* [pgAdmin ※](https://www.pgadmin.org/)
+* <s> [pgAdmin ※](https://www.pgadmin.org/) </s> - PostgreSQLにも同梱されている
 * [HeidiSQL ※](https://www.heidisql.com/)
 * [Monosnap ※](https://monosnap.com/welcome)
 * [Paint.NET ※](http://www.getpaint.net/index.html)
