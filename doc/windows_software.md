@@ -22,6 +22,7 @@ Windows用ソフトウェア
 * [Projectlibre ※](http://www.projectlibre.org/) ※Chocolatey版はインストールがうまくいかない
     * インストールするためにJDK7(Chocolateyでインストール可)が必要
 * [XMind ※](https://jp.xmind.net/)
+* [PostgreSQL ※](https://www.postgresql.org/)
 * [A5:SQL Mk-2](http://a5m2.mmatsubara.com/)
 * <s> [pgAdmin ※](https://www.pgadmin.org/) </s> - PostgreSQLにも同梱されている
 * [HeidiSQL ※](https://www.heidisql.com/)
