@@ -28,7 +28,6 @@ Windows用ソフトウェア
 * [HeidiSQL ※](https://www.heidisql.com/)
 * [Monosnap ※](https://monosnap.com/welcome)
 * [Paint.NET ※](http://www.getpaint.net/index.html)
-* [FileOptimizer ※](http://nikkhokkho.sourceforge.net/static.php?page=FileOptimizer)
 * [LiveReload](http://livereload.com/)
 * [DeskDock Server](http://fdmobileinventions.blogspot.jp/p/deskdock-server.html)
 
