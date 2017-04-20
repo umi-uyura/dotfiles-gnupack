@@ -113,6 +113,7 @@ Android Studio
 
 ### File -> Settings -> Editor -> General -> Appearance
 
+* Show line numberes: **OFF**
 * Show method separators: **ON**
 
 
