@@ -60,7 +60,6 @@ Setting environment variables
 | GNUPACK_HOME | C:\gnupack_devel\home | - |
 | GNUPACK_ROOT | C:\gnupack_devel | - |
 | ChocolateyInstall | C:\ProgramData\chocolatey | Auto addition by Chocolatey |
-| ANDROID_HOME | C:\Users\<User>\AppData\Local\Android\android-sdk | - |
 
 #### Add PATH
 
@@ -69,10 +68,8 @@ Setting environment variables
 | Cygwin | %GNUPACK_ROOT%\app\cygwin\cygwin\bin | - |
 | dotfiles/bin | %GNUPACK_HOME%\dotfiles\bin | - |
 | Chocolatey | %ChocolateyInstall%\bin | Auto addition by Chocolatey |
-| Android tools | %ANDROID_HOME%\tools | - |
 | Android tools bin | %ANDROID_HOME%\tools\bin | - |
-| Android platform-tools | %ANDROID_HOME%\platform-tools | - |
-| Android build-tools | %ANDROID_HOME%\build-tools\24.0.3 | - |
+| Android build-tools | %ANDROID_HOME%\build-tools\25.0.3 | - |
 | Dex2Jar | %ChocolateyInstall%\lib\dex2jar\tools | - |
 
 
@@ -80,14 +77,17 @@ Setting environment variables
 
 | Variable Name | Example | Remarks |
 |---------------|---------|---------|
-| JAVA_HOME | C:\Program Files\Java\jdk1.8.0_121 | Auto addition by JDK |
+| ANDROID_HOME | C:\Android\android-sdk | Auto addition by Chocolatey (Android SDK) |
+| Android tools | %ANDROID_HOME%\tools | Auto addition by Chocolatey (Android SDK) |
+| Android platform-tools | %ANDROID_HOME%\platform-tools | Auto addition by Chocolatey (Android SDK) |
+| JAVA_HOME | C:\Program Files\Java\jdk1.8.0_131 | Auto addition by JDK |
 
 
 #### Add PATH
 
 | Name | Example | Remarks |
 |------|---------|---------|
-| JDK | C:\Program Files\Java\jdk1.8.0_121\bin | Auto addition by JDK |
+| JDK | C:\Program Files\Java\jdk1.8.0_131\bin | Auto addition by JDK |
 
 
 Periodic maintenance
