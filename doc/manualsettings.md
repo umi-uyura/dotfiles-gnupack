@@ -150,6 +150,7 @@ Android Studio
 * Add Plugins
     * [ADB Idea](https://github.com/pbreault/adb-idea)
     * [DatabindingConvert](https://github.com/LiushuiXiaoxia/DatabindingConvert)
+    * [Statistic](https://plugins.jetbrains.com/plugin/4509-statistic)
 
 
 ### File - Settings -> Build, Execution, Deployment -> Instant Run
