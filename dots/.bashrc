@@ -117,23 +117,14 @@
      case $TERM in
          xterm*|emacs)
              PS1="\$(
-                 retv=\$?    
-                 fg=\$(test \$retv -eq 0 && echo \"\[\e[0m\e[0;32m\]\" || echo \"\[\e[0m\e[0;33m\]\")
-                 bg=\$(test \$retv -eq 0 && echo \"\[\e[0;32;42m\]\"   || echo \"\[\e[0;33;43m\]\")
-                 echo
-                 echo -e \" \$bg#\$fg Host: \H | Time: \D{%Y-%m-%d %H:%M:%S} | User: \u | Retv: \$retv\[\e[0m\]\"
-                 echo -e \" \$bg#\$fg Path: \w\[\e[0m\]\"
-                 echo -e \" \$bg#\$fg # \[\e[0m\]\"
-             )"
-             PS1="\$(
                  echo -ne \"\e]0;\$TERM_TITLE\a\"
                  bar=\" \[\e[0;31;41m\]#\[\e[0m\e[0;37m\] \"
                  echo -ne \"\n\"
-                 echo -ne \"\${bar}Host: \H | Time: \D{%Y-%m-%d %H:%M:%S} | User: \u\n\"
+                 echo -ne \"\${bar}Host: \H | User: \u | Time: \D{%Y-%m-%d %H:%M:%S}\n\"
                  echo -ne \"\${bar}Path: \w\n\"
                  echo -ne \"\${bar}# \[\e[0m\]\"
              )"
-             # PS2="   > "
+             PS2="   > "
              # function check_return_code {
              #     retv=$?
              #     if [[ ! $check_return_code ]] ; then
@@ -145,15 +136,13 @@
              #     else
              #         echo -ne "\n\e[0;33m ✗ \e[0;37mFailure (retv = $retv)\n\e[2;33m "
              #     fi
-             #     for (( x=1; x<$COLUMNS; x++ )) ; do echo -ne "\e(0q\e(B" ; done
-             #     echo -ne "\e[0m\n"
              # }
              # export PROMPT_COMMAND
              # PROMPT_COMMAND="check_return_code; $PROMPT_COMMAND"
 
              ;;
          dumb|*)
-             PS1="\n[Host: \H | Time: \D{%Y-%m-%d %H:%M:%S} | User: \u | Retv: \$? ]\n[Path: \w]\n# "
+             PS1="\n[Host: \H | User: \u | Time: \D{%Y-%m-%d %H:%M:%S} | Retv: \$? ]\n[Path: \w]\n# "
              PS2="> "
              ;;
      esac
@@ -188,7 +177,7 @@
      export LESS_TERMCAP_se LESS_TERMCAP_so
      LESS_TERMCAP_so=$'\e[1;44m'    # begin standout-mode - info box
      LESS_TERMCAP_se=$'\e[0m'       # end standout-mode
- 
+
    # 配色（アンダーライン）
      export LESS_TERMCAP_ue LESS_TERMCAP_us
      LESS_TERMCAP_us=$'\e[4;33m'    # begin underline
@@ -197,6 +186,22 @@
    # ソースコードのハイライト
      export LESSOPEN
      LESSOPEN="| src-hilite-lesspipe.sh %s"
+
+
+## ####################################################################
+## @ tmux
+
+   # tmpディレクトリ
+     export TMUX_TMPDIR
+     TMUX_TMPDIR="/var/tmp"
+
+
+## ####################################################################
+## @ python
+
+   # 追加ライブラリ
+     export PYTHONPATH
+     PYTHONPATH="/usr/local/lib/python2.7/site-packages"
 
 
 ## ####################################################################
@@ -325,15 +330,15 @@
 ## ####################################################################
 ## @ 個人設定
 
-   # 
+   #
    if [ -f ~/.bash_profile ]; then
        . ~/.bash_profile
    fi
 
-	 
+
 ## ####################################################################
 
-	 
+
 ## Local Variables:
 ## coding: utf-8
 ## mode: shell-script
