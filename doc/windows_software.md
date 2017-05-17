@@ -28,6 +28,7 @@ Windows用ソフトウェア
 * [HeidiSQL ※](https://www.heidisql.com/)
 * [Monosnap ※](https://monosnap.com/welcome)
 * [Paint.NET ※](http://www.getpaint.net/index.html)
+* [QGIS ※](http://qgis.org/)
 * [LiveReload](http://livereload.com/)
 * [DeskDock Server](http://fdmobileinventions.blogspot.jp/p/deskdock-server.html)
 
