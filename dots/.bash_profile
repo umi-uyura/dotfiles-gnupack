@@ -13,6 +13,21 @@ unset file;
 
 
 #
+# ssh-agent
+#
+
+SSHAGENT=/usr/bin/ssh-agent
+SSHAGENTARGS="-s"
+
+if [ -n "$SSH_AUTH_SOCK" -a -x "$SSHAGENT" ]; then
+  if test -f ~/.ssh-agent-env; then
+    eval `cat ~/.ssh-agent-env`
+  else
+    eval `$SSHAGENT $SSHAGENTARGS`
+    trap "kill $SSH_AGENT_PID" 0
+  fi
+fi
+
 
 #
 # SDKMAN

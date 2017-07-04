@@ -59,6 +59,13 @@ Execute after registering Cygwin related environment variables.
 $ curl -s "https://get.sdkman.io" | bash
 ```
 
+### ssh-agent setting
+
+1. `Win + R` and enter `shell:startup`
+2. Copy *<dotfiles>/doc/startup/run-ssh-agent.cmd* when Windows Explorer opens
+
+See: [Ussing Cygwin's ssh-agent in Windows - JJGR](http://juanjose.garciaripoll.com/blog/using-ssh-agent-on-windows)
+
 
 Setting environment variables
 -----------------------------
