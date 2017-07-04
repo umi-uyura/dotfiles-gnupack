@@ -1,0 +1,20 @@
+##
+## .bash_local
+##
+
+#
+# alias
+#
+
+
+
+#
+# Path
+#
+
+# Java
+export JAVA_HOME=$(cygpath "$JAVA_HOME")
+
+# ImageMagick -> Windows Environment
+
+# Android -> Windows Environment
