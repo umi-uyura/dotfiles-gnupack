@@ -24,6 +24,7 @@ Windows用ソフトウェア
     * インストールするためにJDK7(Chocolateyでインストール可)が必要
 * [XMind ※](https://jp.xmind.net/)
 * [DevDocs Desktop ※](https://devdocs.egoist.moe/)
+* [nx111/jd-gui](https://github.com/nx111/jd-gui) - APK/AAR対応版Java Decompiler GUI（要ビルド）
 * [PostgreSQL ※](https://www.postgresql.org/)
 * [A5:SQL Mk-2](http://a5m2.mmatsubara.com/)
 * <s> [pgAdmin ※](https://www.pgadmin.org/) </s> - PostgreSQLにも同梱されている
