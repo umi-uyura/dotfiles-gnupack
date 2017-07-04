@@ -15,6 +15,7 @@ Windows用ソフトウェア
 * [Seer ※](http://1218.io/)
 * [Simplenote for Electron](https://github.com/Automattic/simplenote-electron)
 * [Typora](http://www.typora.io/)
+* [Binary Editor Bz（改造版）](https://github.com/devil-tamachan/binaryeditorbz)
 * [astah* community ※](http://astah.change-vision.com/ja/product/astah-community.html)
     * 商用利用するには6.9を使う（7.0より商用利用不可）
 * [doxygen](http://www.stack.nl/~dimitri/doxygen/index.html) ※Chocolatey版はインストールに失敗する
