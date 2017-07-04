@@ -49,7 +49,22 @@ gnupack
 
 ```ini
  [Process Variable]
-#    PATH =              # PATHを初期化している部分を削除することで、Windowsの環境変数が有効になる
+    ## PATHを初期化している部分を削除することで、Windowsの環境変数が有効になる
+    # PATH =
+
+    ## 追加するPATHを前方に置くことで、CygwinやEmacsのコマンドを優先使用する
+    # PATH = %PATH%;%EMACS_DIR%\bin
+    # PATH = %PATH%;%LOCAL_DIR%\bin
+    # PATH = %PATH%;%CYGWIN_DIR%\bin
+    # PATH = %PATH%;%ROOT_DIR%\app\script
+    # PATH = %PATH%;%ROOT_DIR%\app\vim
+    # PATH = %PATH%;%windir%\system32;%windir%;%windir%\system32\Wbem
+    # PATH = %PATH%;%WINDIR%\System32\WindowsPowerShell\v1.0
+    PATH = %EMACS_DIR%\bin;%PATH%
+    PATH = %LOCAL_DIR%\bin;%PATH%
+    PATH = %CYGWIN_DIR%\bin;%PATH%
+    PATH = %ROOT_DIR%\app\script;%PATH%
+    PATH = %ROOT_DIR%\app\vim;%PATH%
 
  [startup_cygwin.exe]
     Init_Current_Dir     = %HOME%       # 起動時カレントディレクトリをHOMEにする
