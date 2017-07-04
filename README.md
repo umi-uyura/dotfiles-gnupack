@@ -49,6 +49,16 @@ Run the command prompt as an administrator.
 > choco install <dotfiles>/init/chocolatey.config -y
 ```
 
+### SDKMAN!
+
+Execute after registering Cygwin related environment variables.
+
+[Installation - SDKMAN!](http://sdkman.io/install.html)
+
+```
+$ curl -s "https://get.sdkman.io" | bash
+```
+
 
 Setting environment variables
 -----------------------------

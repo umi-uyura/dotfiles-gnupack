@@ -13,6 +13,17 @@ unset file;
 
 
 #
+
+#
+# SDKMAN
+#
+
+export SDKMAN_DIR="$HOME/.sdkman"
+SDKMAN_INIT="$HOME/.sdkman/bin/sdkman-init.sh"
+[[ -s $SDKMAN_INIT ]] && source $SDKMAN_INIT
+
+
+#
 # Local settings
 #
 
