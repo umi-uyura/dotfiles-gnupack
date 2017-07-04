@@ -8,7 +8,9 @@ TAG_DOTFILES="dotfiles"
 TAG_DOTEMACS="dotemacs"
 TAG_EMACSCASK="emacscask"
 TAG_CHOCO="choco"
-TAGS=($TAG_DOTFILES $TAG_DOTEMACS $TAG_EMACSCASK $TAG_CHOCO)
+TAG_SDKMAN="sdkman"
+TAG_PYTHON2="python2"
+TAGS=($TAG_DOTFILES $TAG_DOTEMACS $TAG_EMACSCASK $TAG_CHOCO $TAG_SDKMAN $TAG_PYTHON2)
 
 #
 # My update function
@@ -128,15 +130,64 @@ skiptag "${TAG_CHOCO}"
 SKIP_CHOCO=$?
 
 if [ 0 -ne $SKIP_CHOCO ]; then
-  if [ $UPGRADE ]; then
-    echo
-    echo "### Updating Chocolatey packages ..."
-    echo
-    cup all -y
-  else
+  # if [ $UPGRADE ]; then
+  #   echo
+  #   echo "### Updating Chocolatey packages ..."
+  #   echo
+  #   cup all -y
+  #   echo "Execute `cup all - y` at the administrator command prompt."
+  #   echo
+  # else
     echo
     echo "### Checking for Chocolatey updates ..."
     echo
     choco outdated
+  # fi
+fi
+
+
+#
+# SDKMAN
+#
+skiptag "${TAG_SDKMAN}"
+SKIP_SDKMAN=$?
+
+if [ 0 -ne $SKIP_SDKMAN ]; then
+  source ~/.sdkman/bin/sdkman-init.sh
+
+  # if [ $UPGRADE ]; then
+  #   echo
+  #   echo "### Updating SDKMAN packages ..."
+  #   echo
+  #   sdk outdated
+  # else
+    echo
+    echo "### Checking for SDKMAN updates ..."
+    echo
+    sdk broadcast
+    sdk outdated
+  # fi
+fi
+
+
+#
+# Python 2.x pip
+#
+# To use the --format option, pip 9.x or later is required
+#
+skiptag "${TAG_PYTHON2}"
+SKIP_PYTHON2=$?
+
+if [ 0 -ne $SKIP_PYTHON2 ]; then
+  if [ $UPGRADE ]; then
+    echo
+    echo "### Updating Python 2.x pakcages ..."
+    echo
+    pip list --outdated --format=legacy | awk '{print $1}' | xargs pip install -U
+  else
+    echo
+    echo "### Checking for Python 2.x package updates ..."
+    echo
+    pip list --outdated --format=columns
   fi
 fi
