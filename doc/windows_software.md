@@ -42,6 +42,7 @@ Windows用ソフトウェア
 * [Slack](https://slack.com/) - ※現状Google日本語入力と相性が悪い
 * LINE
 * Wunderlist
+* Microsoft To-Do
 * [Inkscape](https://inkscape.org/)
 * [Pixlr](https://pixlr.com/)
 * [CrystalDiskMark](http://crystalmark.info/software/CrystalDiskMark/)
