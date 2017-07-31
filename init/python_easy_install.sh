@@ -8,6 +8,7 @@ pip install flake8
 pip install pylint
 pip install mock              # 3.3 unittest.mock backport
 pip install geopy
+pip install gpxpy
 pip install numpy
 pip install pandas
 pip install docopt
