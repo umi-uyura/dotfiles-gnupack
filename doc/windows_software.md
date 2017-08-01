@@ -43,6 +43,7 @@ Windows用ソフトウェア
 * [Latermark for Pocket](https://twitter.com/latermarkapp)
 * 翻訳
 * [Mevy](http://mevy.snowcait.info/)
+* [Tweeten](http://tweetenapp.com/)
 * [Slack](https://slack.com/) - ※現状Google日本語入力と相性が悪い
 * LINE
 * Wunderlist
