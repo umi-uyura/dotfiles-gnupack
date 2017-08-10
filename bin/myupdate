@@ -183,11 +183,11 @@ if [ 0 -ne $SKIP_PYTHON2 ]; then
     echo
     echo "### Updating Python 2.x pakcages ..."
     echo
-    pip list --outdated --format=legacy | awk '{print $1}' | xargs pip install -U
+    pip2 list --outdated --format=legacy | awk '{print $1}' | xargs pip2 install -U
   else
     echo
     echo "### Checking for Python 2.x package updates ..."
     echo
-    pip list --outdated --format=columns
+    pip2 list --outdated --format=columns
   fi
 fi
