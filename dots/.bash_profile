@@ -11,6 +11,24 @@ for file in ~/dotfiles/shell/{aliases,bash_prompt,exports}; do
 done;
 unset file;
 
+#
+# Cygwin sudo
+#
+# https://stackoverflow.com/questions/4090301/root-user-sudo-equivalent-in-cygwin
+#
+
+if [[ -n "$PS1" ]]; then
+  __sudo_cygwin() {
+    local executable=$(which "${1:-cmd}")
+    shift
+    /usr/bin/cygstart --action=runas "$executable" "$@"
+  }
+
+  if [[ -x "/usr/bin/cygstart" ]]; then
+    alias sudo=__sudo_cygwin
+  fi
+fi
+
 
 #
 # ssh-agent
@@ -36,6 +54,12 @@ fi
 export SDKMAN_DIR="$HOME/.sdkman"
 SDKMAN_INIT="$HOME/.sdkman/bin/sdkman-init.sh"
 [[ -s $SDKMAN_INIT ]] && source $SDKMAN_INIT
+
+
+#
+# Nodist
+#
+NODIST_BIN_DIR__=$(echo "$NODIST_PREFIX" | sed -e 's,\\,/,g')/bin; if [ -f "$NODIST_BIN_DIR__/nodist.sh" ]; then . "$NODIST_BIN_DIR__/nodist.sh"; fi; unset NODIST_BIN_DIR__;
 
 
 #
