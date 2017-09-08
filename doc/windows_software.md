@@ -18,6 +18,7 @@ Windows用ソフトウェア
 * [Binary Editor Bz（改造版）](https://github.com/devil-tamachan/binaryeditorbz)
 * [astah* community ※](http://astah.change-vision.com/ja/product/astah-community.html)
     * 商用利用するには6.9を使う（7.0より商用利用不可）
+* [drawio-desktop](https://github.com/jgraph/drawio-desktop)
 * [doxygen](http://www.stack.nl/~dimitri/doxygen/index.html) ※Chocolatey版はインストールに失敗する
 * [GanttProject　※](http://www.ganttproject.biz/)
 * [Projectlibre ※](http://www.projectlibre.org/) ※Chocolatey版はインストールがうまくいかない
