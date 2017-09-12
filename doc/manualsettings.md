@@ -173,6 +173,14 @@ Android Studio
 * Show Instant Run status notifications: **ON**
 
 
+IntelliJ IDEA
+--------------
+
+### Plugins
+
+* Scala
+* VisualVM Launcher
+
 
 Hain
 ----
