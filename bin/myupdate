@@ -10,7 +10,8 @@ TAG_EMACSCASK="emacscask"
 TAG_CHOCO="choco"
 TAG_SDKMAN="sdkman"
 TAG_PYTHON2="python2"
-TAGS=($TAG_DOTFILES $TAG_DOTEMACS $TAG_EMACSCASK $TAG_CHOCO $TAG_SDKMAN $TAG_PYTHON2)
+TAG_NODE="node"
+TAGS=($TAG_DOTFILES $TAG_DOTEMACS $TAG_EMACSCASK $TAG_CHOCO $TAG_SDKMAN $TAG_PYTHON2 $TAG_NODE)
 
 #
 # My update function
@@ -189,5 +190,32 @@ if [ 0 -ne $SKIP_PYTHON2 ]; then
     echo "### Checking for Python 2.x package updates ..."
     echo
     pip2 list --outdated --format=columns
+  fi
+fi
+
+
+#
+# Node packages
+#
+skiptag "${TAG_NODE}"
+SKIP_NODE=$?
+
+if [ 0 -ne $SKIP_NODE ]; then
+  if [ $UPGRADE ]; then
+    echo
+    echo "### Updating NPM ..."
+    echo
+    # npm install -g npm
+    nodist npm match
+
+    echo
+    echo "### Updating Node packages ..."
+    echo
+    npm update -g
+  else
+    echo
+    echo "### Checking for Node package updates ..."
+    echo
+    ncu -g
   fi
 fi
