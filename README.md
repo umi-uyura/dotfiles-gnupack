@@ -88,6 +88,7 @@ Setting environment variables
 | Android tools bin | %ANDROID_HOME%\tools\bin | - |
 | Android build-tools | %ANDROID_HOME%\build-tools\25.0.3 | - |
 | Dex2Jar | %ChocolateyInstall%\lib\dex2jar\tools | - |
+| PostgreSQL | C:\Program Files\PostgreSQL\9.6\bin | - |
 
 
 ### System environment variables
