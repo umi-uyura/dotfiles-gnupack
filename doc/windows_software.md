@@ -52,3 +52,4 @@ Windows用ソフトウェア
 * [Inkscape](https://inkscape.org/)
 * [Pixlr](https://pixlr.com/)
 * [CrystalDiskMark](http://crystalmark.info/software/CrystalDiskMark/)
+* [SCONE Diff](https://sconeapp.com/diff/index.html)
