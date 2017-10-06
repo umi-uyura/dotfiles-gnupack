@@ -7,6 +7,9 @@
 # Install npm packages
 #
 
+# Web Develop
+npm install -g json-server
+
 # Linter
 npm install -g eslint
 npm install -g eslint-plugin-react
