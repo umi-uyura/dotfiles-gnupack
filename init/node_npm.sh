@@ -14,7 +14,7 @@ npm install -g js-beautify
 # Linter
 npm install -g eslint
 npm install -g eslint-plugin-react
-npm install -g jsonlint
+npm install -g jsonlint-mod
 npm install -g plato
 
 # Utilities
