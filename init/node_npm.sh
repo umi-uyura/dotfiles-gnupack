@@ -9,6 +9,7 @@
 
 # Web Develop
 npm install -g json-server
+npm install -g js-beautify
 
 # Linter
 npm install -g eslint

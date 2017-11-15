@@ -15,5 +15,4 @@ pip install docopt
 pip install python-dateutil
 pip install pytz
 pip install enum34            # 3.4 Enum backport
-pip install jsbeautifier
 pip install requests
