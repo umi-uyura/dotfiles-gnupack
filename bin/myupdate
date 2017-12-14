@@ -11,7 +11,8 @@ TAG_CHOCO="choco"
 TAG_SDKMAN="sdkman"
 TAG_PYTHON2="python2"
 TAG_NODE="node"
-TAGS=($TAG_DOTFILES $TAG_DOTEMACS $TAG_EMACSCASK $TAG_CHOCO $TAG_SDKMAN $TAG_PYTHON2 $TAG_NODE)
+TAG_RUBYGEMS="rubygems"
+TAGS=($TAG_DOTFILES $TAG_DOTEMACS $TAG_EMACSCASK $TAG_CHOCO $TAG_SDKMAN $TAG_PYTHON2 $TAG_NODE $TAG_RUBYGEMS)
 
 #
 # My update function
@@ -218,5 +219,28 @@ if [ 0 -ne $SKIP_NODE ]; then
     echo "### Checking for Node package updates ..."
     echo
     ncu -g
+  fi
+fi
+
+
+#
+# Rubygems
+#
+skiptag "${TAG_RUBYGEMS}"
+SKIP_RUBYGEMS=$?
+
+if [ 0 -ne $SKIP_RUBYGEMS ]; then
+  if [ $UPGRADE ]; then
+    echo
+    echo "### Updating Rubygems ..."
+    echo
+    gem update --system
+    gem update
+    gem clean
+  else
+    echo
+    echo "### Checking for Rubygem updates ..."
+    echo
+    gem outdated
   fi
 fi
