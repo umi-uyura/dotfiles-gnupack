@@ -212,6 +212,7 @@ if [ 0 -ne $SKIP_NODE ]; then
     echo "### Updating Node packages ..."
     echo
     npm update -g
+    # cygstart --action runas npm update -g
   else
     echo
     echo "### Checking for Node package updates ..."
