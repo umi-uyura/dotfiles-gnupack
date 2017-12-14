@@ -1,0 +1,12 @@
+#!/bin/sh
+
+SBT_OPTS="-Xms512M -Xmx1536M -Xss1M -XX:+CMSClassUnloadingEnabled"
+SBT_DIR=`cygpath -w $(dirname $(which sbt))`
+SBT_BOOT_DIR=`cygpath -w $USERPROFILE/.sbt/boot`
+
+CYGWIN_MODE=""
+if [[ "$CYGWIN_FLAG" == "true" ]]; then
+  CYGWIN_MODE="-Dsbt.cygwin=true"
+fi
+
+java $SBT_OPTS $CYGWIN_MODE -Dsbt.main.class=sbt.ScriptMain -Dsbt.boot.directory=$SBT_BOOT_DIR -jar $SBT_DIR/sbt-launch.jar "$@"
