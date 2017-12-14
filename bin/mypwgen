@@ -1,0 +1,3 @@
+#!/bin/sh
+
+pwgen -cnyB1 $1 $2
