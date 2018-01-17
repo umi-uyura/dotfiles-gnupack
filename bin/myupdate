@@ -167,7 +167,7 @@ if [ 0 -ne $SKIP_SDKMAN ]; then
     echo "### Checking for SDKMAN updates ..."
     echo
     sdk broadcast
-    sdk outdated
+    sdk upgrade
   # fi
 fi
 
