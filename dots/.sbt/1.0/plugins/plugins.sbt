@@ -1,0 +1,6 @@
+addSbtPlugin("org.ensime" % "sbt-ensime" % "2.5.1")
+addSbtPlugin("org.duhemm" % "sbt-errors-summary" % "0.6.0")
+// addSbtPlugin("com.timushev.sbt" % "sbt-updates" % "0.3.4")
+addSbtPlugin("org.jmotor.sbt" % "sbt-dependency-updates" % "1.1.5")
+addSbtPlugin("net.virtual-void" % "sbt-dependency-graph" % "0.9.0")
+addSbtPlugin("com.typesafe.sbt" % "sbt-license-report" % "1.2.0")
