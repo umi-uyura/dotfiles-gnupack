@@ -46,6 +46,7 @@ Windows用ソフトウェア
 * [Mevy](http://mevy.snowcait.info/)
 * [Tweeten](http://tweetenapp.com/)
 * [Slack](https://slack.com/)
+* [QuickLook](http://pooi.moe/QuickLook/)
 * LINE
 * Microsoft To-Do
 * [Inkscape](https://inkscape.org/)
