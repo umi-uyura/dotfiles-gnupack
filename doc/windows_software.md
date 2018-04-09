@@ -12,8 +12,6 @@ Windows用ソフトウェア
 * [Google 日本語入力 ※](https://www.google.co.jp/ime/)
 * [Franz](https://meetfranz.com/)
 * [the_platinum_searcher ※](https://github.com/monochromegane/the_platinum_searcher)
-* [WinQuickLook](https://github.com/shibayan/WinQuickLook)
-* [Seer ※](http://1218.io/)
 * [Simplenote for Electron](https://github.com/Automattic/simplenote-electron)
 * [Typora](http://www.typora.io/)
 * [Binary Editor Bz（改造版）](https://github.com/devil-tamachan/binaryeditorbz)
