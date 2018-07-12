@@ -165,6 +165,7 @@ Android Studio
 * Add Plugins
     * [ADB Idea](https://github.com/pbreault/adb-idea)
     * [DatabindingConvert](https://github.com/LiushuiXiaoxia/DatabindingConvert)
+    * [AndroidDrawableViewer](https://github.com/androhi/AndroidDrawableViewer)
     * [Statistic](https://plugins.jetbrains.com/plugin/4509-statistic)
 
 
