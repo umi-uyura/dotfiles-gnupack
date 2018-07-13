@@ -12,7 +12,6 @@ Windows用ソフトウェア
 * [Google 日本語入力 ※](https://www.google.co.jp/ime/)
 * [Franz](https://meetfranz.com/)
 * [the_platinum_searcher ※](https://github.com/monochromegane/the_platinum_searcher)
-* [Simplenote for Electron](https://github.com/Automattic/simplenote-electron)
 * [Typora](http://www.typora.io/)
 * [Binary Editor Bz（改造版）](https://github.com/devil-tamachan/binaryeditorbz)
 * [astah* community ※](http://astah.change-vision.com/ja/product/astah-community.html)
@@ -41,15 +40,14 @@ Windows用ソフトウェア
 ストアアプリ
 ------------
 
-* [Latermark for Pocket](https://twitter.com/latermarkapp)
 * 翻訳
 * [Mevy](http://mevy.snowcait.info/)
 * [Tweeten](http://tweetenapp.com/)
 * [Slack](https://slack.com/)
 * [QuickLook](http://pooi.moe/QuickLook/)
-* LINE
 * Microsoft To-Do
 * [Inkscape](https://inkscape.org/)
 * [Pixlr](https://pixlr.com/)
 * [CrystalDiskMark](http://crystalmark.info/software/CrystalDiskMark/)
 * [SCONE Diff](https://sconeapp.com/diff/index.html)
+* [Simplenote](https://simplenote.com/)
