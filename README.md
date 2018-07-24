@@ -12,13 +12,66 @@ Installation routine
 * Download gnupack_devel-*.exe from [osdn site](https://osdn.jp/projects/gnupack/releases/p10360)
 * Execute gnupack_devel-*.exe and extract to any folder
 * gnupack_devel folder move to `C:\`
+  * If joining a domain, move to `C:\Users\<user name>\`
 
+#### Change home directory
+
+* Edit `startup_config.ini`
+  ``` ini
+   [Process Variable]
+      HOME      = %USERPROFILE%
+  ```
+
+### Generate ssh key and add to GitHub
+
+Generate ssh key and add key to ssh-agent
+
+```
+$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -f ~/.ssh/my_github_rsa
+$ eval $(ssh-agent -s)
+Agent pid 99999
+$ ssh-add ~/.ssh/my_github_rsa
+```
+
+Create `~/.ssh/config`
+
+```
+ForwardAgent yes
+
+Host github.com
+    HostName        github.com
+    IdentityFile    ~/.ssh/github_rsa
+    IdentitiesOnly  yes
+    AddKeysToAgent  yes
+    User            <main github account>
+
+Host my-github.com
+    HostName        github.com
+    IdentityFile    ~/.ssh/my_github_rsa
+    IdentitiesOnly  yes
+```
+
+Add ssh key to my GitHub account
+
+```
+$ clip < ~/.ssh/my_github_rsa.pub
+...
+$ ssh -T git@my-github.com
+Hi <github account>! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
+### Upgrade cygwin packages
+
+```
+$ apt-cyg dist-upgrade
+```
 
 ### dotfiles
 
 ```
 $ cd ~
 $ git clone git@my-github.com:umi-uyura/dotfiles-gnupack.git dotfiles
+$ git checkout <latest branch>      # if needed
 $ ./dotfiles/dots/setup.sh
 $ ./dotfiles/init/apt-cyg-init.sh
 ```
@@ -45,7 +98,7 @@ Run the command prompt as an administrator.
 [Installation · chocolatey/choco Wiki · GitHub](https://github.com/chocolatey/choco/wiki/Installation)
 
 ```
-> @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+> @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 > choco install <dotfiles>/init/chocolatey.config -y
 ```
 
