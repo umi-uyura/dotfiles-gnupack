@@ -31,7 +31,7 @@ Windows用ソフトウェア
 * [QGIS ※](http://qgis.org/)
 * [LiveReload](http://livereload.com/)
 * [HDGraph](http://www.hdgraph.com/)
-* [DeskDock Server](http://fdmobileinventions.blogspot.jp/p/deskdock-server.html)
+* <s> [DeskDock Server](http://fdmobileinventions.blogspot.jp/p/deskdock-server.html) </s>
 
 
 ストアアプリ
