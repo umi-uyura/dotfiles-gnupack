@@ -12,7 +12,6 @@ Windows用ソフトウェア
 * [Google 日本語入力 ※](https://www.google.co.jp/ime/)
 * [Franz](https://meetfranz.com/)
 * [the_platinum_searcher ※](https://github.com/monochromegane/the_platinum_searcher)
-* [Typora](http://www.typora.io/)
 * [Binary Editor Bz（改造版）](https://github.com/devil-tamachan/binaryeditorbz)
 * [astah* community ※](http://astah.change-vision.com/ja/product/astah-community.html)
     * 商用利用するには6.9を使う（7.0より商用利用不可）
@@ -24,11 +23,9 @@ Windows用ソフトウェア
 * [XMind ※](https://jp.xmind.net/)
 * [DevDocs Desktop ※](https://devdocs.egoist.moe/)
 * [nx111/jd-gui](https://github.com/nx111/jd-gui) - APK/AAR対応版Java Decompiler GUI（要ビルド）
-* [PostgreSQL ※](https://www.postgresql.org/)
 * [A5:SQL Mk-2](http://a5m2.mmatsubara.com/)
 * <s> [pgAdmin ※](https://www.pgadmin.org/) </s> - PostgreSQLにも同梱されている
 * [HeidiSQL ※](https://www.heidisql.com/)
-* [Monosnap ※](https://monosnap.com/welcome)
 * [Paint.NET ※](http://www.getpaint.net/index.html)
 * [Instant Eyedropper ※](http://instant-eyedropper.com/)
 * [QGIS ※](http://qgis.org/)
