@@ -32,6 +32,7 @@ Windows用ソフトウェア
 * [LiveReload](http://livereload.com/)
 * [HDGraph](http://www.hdgraph.com/)
 * <s> [DeskDock Server](http://fdmobileinventions.blogspot.jp/p/deskdock-server.html) </s>
+* [SwitchHosts\!](https://oldj.github.io/SwitchHosts/)
 
 
 ストアアプリ
