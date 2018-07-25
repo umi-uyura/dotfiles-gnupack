@@ -112,6 +112,18 @@ Execute after registering Cygwin related environment variables.
 $ curl -s "https://get.sdkman.io" | bash
 ```
 
+Install sdks
+
+```
+sdk install gradle
+sdk install kotlin
+sdk install kscript
+sdk install springboot
+sdk install sbt
+sdk install scala
+sdk install visualvm
+```
+
 ### ssh-agent setting
 
 1. `Win + R` and enter `shell:startup`
