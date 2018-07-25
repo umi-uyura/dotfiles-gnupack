@@ -132,6 +132,15 @@ sdk install visualvm
 See: [Ussing Cygwin's ssh-agent in Windows - JJGR](http://juanjose.garciaripoll.com/blog/using-ssh-agent-on-windows)
 
 
+### Initialization script
+
+Nodist (Node.js)
+
+```
+> nodist add <version>
+> nodist npm match
+```
+
 Setting environment variables
 -----------------------------
 
