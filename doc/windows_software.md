@@ -47,4 +47,5 @@ Windows用ソフトウェア
 * [Pixlr](https://pixlr.com/)
 * [CrystalDiskMark](http://crystalmark.info/software/CrystalDiskMark/)
 * [SCONE Diff](https://sconeapp.com/diff/index.html)
+* iTunes
 * [Simplenote](https://simplenote.com/)
