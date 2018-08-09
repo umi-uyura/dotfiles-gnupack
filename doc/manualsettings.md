@@ -194,6 +194,13 @@ Android Studio
 IntelliJ IDEA
 --------------
 
+### File -> Settings -> Editor -> File Encodings
+
+* Global Encoding: **UTF-8**
+* Project Encoding: **UTF-8**
+* Properties Files (*.properties): **UTF-8**
+
+
 ### Plugins
 
 * Scala
