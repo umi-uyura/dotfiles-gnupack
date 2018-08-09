@@ -1,3 +1,7 @@
 #!/bin/sh
 
+#
+# mypwgen <length> <number>
+#
+
 pwgen -cnyB1 $1 $2
