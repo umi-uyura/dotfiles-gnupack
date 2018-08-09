@@ -13,6 +13,11 @@ npm install -g easymock
 npm install -g js-beautify
 npm install -g quicktype
 
+# Vue.js
+npm install -g @vue/devtools
+npm install -g @vue/cli
+npm install -g @vue/cli-service-global
+
 # Linter
 npm install -g eslint
 npm install -g eslint-plugin-react
