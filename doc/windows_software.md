@@ -36,14 +36,13 @@ Windows用ソフトウェア
 ------------
 
 * 翻訳
-* [Mevy](http://mevy.snowcait.info/)
-* [Tweeten](http://tweetenapp.com/)
 * [Slack](https://slack.com/)
 * [QuickLook](http://pooi.moe/QuickLook/)
 * Microsoft To-Do
+* [Simplenote](https://simplenote.com/)
+* [Tweeten](http://tweetenapp.com/)
 * [Inkscape](https://inkscape.org/)
 * [Pixlr](https://pixlr.com/)
 * [CrystalDiskMark](http://crystalmark.info/software/CrystalDiskMark/)
 * [SCONE Diff](https://sconeapp.com/diff/index.html)
 * iTunes
-* [Simplenote](https://simplenote.com/)
