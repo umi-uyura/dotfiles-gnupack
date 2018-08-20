@@ -13,6 +13,7 @@ Windows用ソフトウェア
 * [Franz](https://meetfranz.com/)
 * [Binary Editor Bz（改造版）](https://github.com/devil-tamachan/binaryeditorbz)
 * [drawio-desktop](https://github.com/jgraph/drawio-desktop)
+* [Fork](https://git-fork.com/windows)
 * [doxygen](http://www.stack.nl/~dimitri/doxygen/index.html) ※Chocolatey版はインストールに失敗する
 * [GanttProject　※](http://www.ganttproject.biz/)
 * [Projectlibre ※](http://www.projectlibre.org/) ※Chocolatey版はインストールがうまくいかない
