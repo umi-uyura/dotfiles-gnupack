@@ -27,3 +27,4 @@ npm install -g hint
 
 # Utilities
 npm install -g npm-check-updates
+npm install -g ghwd
