@@ -48,3 +48,4 @@ Windows用ソフトウェア
 * [CrystalDiskMark](http://crystalmark.info/software/CrystalDiskMark/)
 * [SCONE Diff](https://sconeapp.com/diff/index.html)
 * iTunes
+* [Wifinian](https://github.com/emoacht/Wifinian) - Wi-Fi接続先の自動切り替えツール
