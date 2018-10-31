@@ -177,7 +177,7 @@ Setting environment variables
 | ANDROID_HOME | C:\Android\android-sdk | Auto addition by Chocolatey (Android SDK) |
 | Android tools | %ANDROID_HOME%\tools | Auto addition by Chocolatey (Android SDK) |
 | Android platform-tools | %ANDROID_HOME%\platform-tools | Auto addition by Chocolatey (Android SDK) |
-| JAVA_HOME | C:\Program Files\Java\jdk1.8.0_131 | Auto addition by JDK |
+| JAVA_HOME | C:\Program Files\Java\jdk1.8.0_131 | Auto addition by Chocolatey (JDK) |
 | GOROOT | C:\Go | Auto addition by Chocolatey (Golang) |
 
 
@@ -185,7 +185,7 @@ Setting environment variables
 
 | Name | Example | Remarks |
 |------|---------|---------|
-| JDK | C:\Program Files\Java\jdk1.8.0_131\bin | Auto addition by JDK |
+| JDK | C:\Program Files\Java\jdk1.8.0_131\bin | Auto addition by Chocolatey (JDK) |
 | Go | %GOROOT%\bin | Auto addition by Chocolatey (Golang) |
 
 
