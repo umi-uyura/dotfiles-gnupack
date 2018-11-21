@@ -6,13 +6,18 @@
     "jquery": true,
     "node": true
   },
-  "extends": "eslint:recommended",
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/recommended"
+  ],
   "parserOptions": {
-    "ecmaVersion": 6,
-    "impliedStrict": true
+    "ecmaVersion": 2017,
+    "impliedStrict": true,
+    "sourceType": "module"
   },
   "rules": {
     "no-console": "warn",
+    "no-unused-vars": ["error", {"args": "none"}],
     "indent": ["error", 2],
     "linebreak-style": "off",
     "quotes": ["error", "single"],
