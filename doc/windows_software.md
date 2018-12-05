@@ -41,6 +41,7 @@ Windows用ソフトウェア
 * [Slack](https://slack.com/)
 * [QuickLook](http://pooi.moe/QuickLook/)
 * Microsoft To-Do
+* [SylphyHorn](https://github.com/Grabacr07/SylphyHorn) - 仮想デスクトップ操作の拡張
 * [Simplenote](https://simplenote.com/)
 * [Tweeten](http://tweetenapp.com/)
 * [Inkscape](https://inkscape.org/)
