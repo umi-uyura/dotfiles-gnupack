@@ -117,6 +117,24 @@ Google Chrome
 * [ChromeLens](https://chrome.google.com/webstore/detail/chromelens/idikgljglpfilbhaboonnpnnincjhjkd) - アクセシビリティチェックツール
 
 
+Visual Studio Code
+------------------
+
+### Keyboard shortcuts
+
+* Show All Editors ( `workbench.action.showAllEditors` ) : `ctrl+x ctrl+b`
+
+
+IntelliJ IDEA
+--------------
+
+### File -> Settings -> Editor -> File Encodings
+
+* Global Encoding: **UTF-8**
+* Project Encoding: **UTF-8**
+* Properties Files (*.properties): **UTF-8**
+
+
 Android Studio
 --------------
 
@@ -191,22 +209,6 @@ Android Studio
 ### File - Settings -> Build, Execution, Deployment -> Instant Run
 
 * Show Instant Run status notifications: **ON**
-
-
-IntelliJ IDEA
---------------
-
-### File -> Settings -> Editor -> File Encodings
-
-* Global Encoding: **UTF-8**
-* Project Encoding: **UTF-8**
-* Properties Files (*.properties): **UTF-8**
-
-
-### Plugins
-
-* Scala
-* VisualVM Launcher
 
 
 Hain
