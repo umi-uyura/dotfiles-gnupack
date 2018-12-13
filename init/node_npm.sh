@@ -28,5 +28,6 @@ npm install -g plato
 npm install -g hint
 
 # Utilities
+npm install -g depcheck
 npm install -g npm-check-updates
 npm install -g ghwd
