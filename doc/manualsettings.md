@@ -122,6 +122,7 @@ Visual Studio Code
 
 ### Keyboard shortcuts
 
+* Toggle Line Comment ( `editor.action.commentLine` ) : `alt+oem_plus` ( Alt + `;` )
 * Show All Editors ( `workbench.action.showAllEditors` ) : `ctrl+x ctrl+b`
 
 
