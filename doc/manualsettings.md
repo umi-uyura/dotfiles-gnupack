@@ -219,3 +219,11 @@ Hain
 
 * hain-plugin-pc
 * hain-plugin-cmd
+
+
+MS Office
+---------
+
+### Add-in
+
+* [nuitsjp/CopyToMarkdownAddIn](https://github.com/nuitsjp/CopyToMarkdownAddIn) - Add-In for copying from Excel to Markdown
