@@ -230,6 +230,8 @@ fi
 skiptag "${TAG_RUBYGEMS}"
 SKIP_RUBYGEMS=$?
 
+alias gem='gem.cmd'
+
 if [ 0 -ne $SKIP_RUBYGEMS ]; then
   if [ $UPGRADE ]; then
     echo

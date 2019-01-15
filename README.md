@@ -60,11 +60,16 @@ $ ssh -T git@my-github.com
 Hi <github account>! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
-### Upgrade cygwin packages
+### Upgrade and remove cygwin packages
 
 ```
 $ apt-cyg dist-upgrade
 ```
+
+Delete the following cygwin packages
+
+* Category: Ruby
+
 
 ### dotfiles
 
