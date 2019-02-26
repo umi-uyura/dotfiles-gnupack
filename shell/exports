@@ -4,9 +4,5 @@
 # Windows User Home
 export WINUSER_HOME=$(cygpath $USERPROFILE)
 
-# Emacs
-export EMACS_HOME=~/.emacs.d
-export PATH=$EMACS_HOME/bin:$PATH
-
 # Emacs Cask
 export PATH=~/.cask/bin:$PATH

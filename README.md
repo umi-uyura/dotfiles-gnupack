@@ -155,6 +155,7 @@ Setting environment variables
 |---------------|---------|---------|
 | GNUPACK_HOME | %USERPROFILE% | - |
 | GNUPACK_ROOT | %USERPROFILE%\gnupack-devel | - |
+| EMACS_HOME | %USERPROFILE%\.emacs.d | - |
 | SDKMAN_ROOT | %USERPROFILE%\.sdkman\candidates | - |
 | GOPATH | %USERPROFILE%\.go | - |
 
@@ -164,6 +165,7 @@ Setting environment variables
 |------|---------|---------|
 | Cygwin | %GNUPACK_ROOT%\app\cygwin\cygwin\bin | - |
 | dotfiles/bin | %GNUPACK_HOME%\dotfiles\bin | - |
+| .emacs/bin | %EMACS_HOME%\bin | - |
 | Chocolatey | %ChocolateyInstall%\bin | Auto addition by Chocolatey |
 | Android tools bin | %ANDROID_HOME%\tools\bin | - |
 | Android build-tools | %ANDROID_HOME%\build-tools\25.0.3 | - |
