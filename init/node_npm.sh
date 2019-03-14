@@ -8,6 +8,7 @@
 #
 
 # Web Develop
+npm install -g http-server
 npm install -g json-server
 npm install -g easymock
 npm install -g js-beautify
