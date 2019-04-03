@@ -28,6 +28,9 @@ npm install -g jsonlint-mod
 npm install -g plato
 npm install -g hint
 
+# Documentation
+npm i -g gitbook-cli
+
 # Utilities
 npm install -g depcheck
 npm install -g npm-check-updates
