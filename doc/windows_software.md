@@ -32,6 +32,7 @@ Windows用ソフトウェア
 * [HDGraph](http://www.hdgraph.com/)
 * <s> [DeskDock Server](http://fdmobileinventions.blogspot.jp/p/deskdock-server.html) </s>
 * [SwitchHosts\!](https://oldj.github.io/SwitchHosts/)
+* [Mini Mouse Macro](https://www.turnssoft.com/mini-mouse-macro.html) - gnupack Emacsが起動後一度マウスで動かさないと日本語入力が効かないため
 
 
 ストアアプリ
