@@ -20,8 +20,8 @@ Windows用ソフトウェア
     * インストールするためにJDK7(Chocolateyでインストール可)が必要
 * [XMind ※](https://jp.xmind.net/)
 * [DevDocs Desktop ※](https://devdocs.egoist.moe/)
+* [PhotoDemon](https://photodemon.org/)
 * [nx111/jd-gui](https://github.com/nx111/jd-gui) - APK/AAR対応版Java Decompiler GUI（要ビルド）
-* [A5:SQL Mk-2](http://a5m2.mmatsubara.com/)
 * <s> [pgAdmin ※](https://www.pgadmin.org/) </s> - PostgreSQLにも同梱されている
 * [HeidiSQL ※](https://www.heidisql.com/)
 * [Paint.NET ※](http://www.getpaint.net/index.html)
@@ -49,5 +49,6 @@ Windows用ソフトウェア
 * [Pixlr](https://pixlr.com/)
 * [CrystalDiskMark](http://crystalmark.info/software/CrystalDiskMark/)
 * [SCONE Diff](https://sconeapp.com/diff/index.html)
+* [A5:SQL Mk-2](http://a5m2.mmatsubara.com/)
 * iTunes
 * [Wifinian](https://github.com/emoacht/Wifinian) - Wi-Fi接続先の自動切り替えツール
