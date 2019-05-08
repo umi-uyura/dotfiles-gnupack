@@ -143,7 +143,7 @@ if [ 0 -ne $SKIP_CHOCO ]; then
     echo
     echo "### Checking for Chocolatey updates ..."
     echo
-    choco outdated
+    choco outdated --ignore-pinned
   # fi
 fi
 
