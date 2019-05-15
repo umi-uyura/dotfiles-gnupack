@@ -9,6 +9,23 @@ apt-cyg install jq
 apt-cyg install pwgen
 
 #
+# Python
+#
+
+apt-cyg install python3
+apt-cyg install python3-devel
+apt-cyg install python36
+apt-cyg install python36-devel
+apt-cyg install python36-setuptools
+apt-cyg install python-pip-wheel
+apt-cyg install python36-pip
+apt-cyg install python36-certifi
+apt-cyg install python36-openssl
+apt-cyg install pylint
+apt-cyg install python36-requests
+
+
+#
 # Error countermeasure
 #
 

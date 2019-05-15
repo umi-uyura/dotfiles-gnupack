@@ -9,10 +9,10 @@ TAG_DOTEMACS="dotemacs"
 TAG_EMACSCASK="emacscask"
 TAG_CHOCO="choco"
 TAG_SDKMAN="sdkman"
-TAG_PYTHON2="python2"
+TAG_PYTHON="python"
 TAG_NODE="node"
 TAG_RUBYGEMS="rubygems"
-TAGS=($TAG_DOTFILES $TAG_DOTEMACS $TAG_EMACSCASK $TAG_CHOCO $TAG_SDKMAN $TAG_PYTHON2 $TAG_NODE $TAG_RUBYGEMS)
+TAGS=($TAG_DOTFILES $TAG_DOTEMACS $TAG_EMACSCASK $TAG_CHOCO $TAG_SDKMAN $TAG_PYTHON $TAG_NODE $TAG_RUBYGEMS)
 
 #
 # My update function
@@ -173,25 +173,23 @@ fi
 
 
 #
-# Python 2.x pip
+# Python 3 pip
 #
-# To use the --format option, pip 9.x or later is required
-#
-skiptag "${TAG_PYTHON2}"
-SKIP_PYTHON2=$?
+skiptag "${TAG_PYTHON}"
+SKIP_PYTHON=$?
 
-if [ 0 -ne $SKIP_PYTHON2 ]; then
-  if [ $UPGRADE ]; then
+if [ 0 -ne $SKIP_PYTHON ]; then
+  # if [ $UPGRADE ]; then
+  #   echo
+  #   echo "### Updating Python 3 pakcages ..."
+  #   echo
+  #   # pip3 list --outdated --format=legacy | awk '{print $1}' | xargs pip2 install -U
+  # else
     echo
-    echo "### Updating Python 2.x pakcages ..."
+    echo "### Checking for Python 3 package updates ..."
     echo
-    pip2 list --outdated --format=legacy | awk '{print $1}' | xargs pip2 install -U
-  else
-    echo
-    echo "### Checking for Python 2.x package updates ..."
-    echo
-    pip2 list --outdated --format=columns
-  fi
+    pip3 list --outdated
+  # fi
 fi
 
 
