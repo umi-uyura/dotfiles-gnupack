@@ -201,12 +201,11 @@ SKIP_NODE=$?
 
 if [ 0 -ne $SKIP_NODE ]; then
   if [ $UPGRADE ]; then
-    echo
-    echo "### Updating NPM ..."
-    echo
+    # echo
+    # echo "### Updating NPM ..."
+    # echo
     # npm install -g npm
-    nodist npm add latest
-    nodist npm latest
+    # nodist npm latest
 
     echo
     echo "### Updating Node packages ..."
