@@ -29,6 +29,7 @@ Windows用ソフトウェア
 * [Instant Eyedropper ※](http://instant-eyedropper.com/)
 * [QGIS ※](http://qgis.org/)
 * [LiveReload](http://livereload.com/)
+* [HTTP View](https://httptoolkit.tech/view/) - HTTPデバッグプロキシ
 * [Blisk](https://blisk.io/)
 * [HDGraph](http://www.hdgraph.com/)
 * <s> [DeskDock Server](http://fdmobileinventions.blogspot.jp/p/deskdock-server.html) </s>
