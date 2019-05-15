@@ -19,6 +19,7 @@ Windows用ソフトウェア
 * [Projectlibre ※](http://www.projectlibre.org/) ※Chocolatey版はインストールがうまくいかない
     * インストールするためにJDK7(Chocolateyでインストール可)が必要
 * [XMind ※](https://jp.xmind.net/)
+* [CubePDF Page](https://www.cube-soft.jp/cubepdfpage/) - PDFページ結合・分割（他にもシリーズアプリあり）
 * [DevDocs Desktop ※](https://devdocs.egoist.moe/)
 * [PhotoDemon](https://photodemon.org/)
 * [nx111/jd-gui](https://github.com/nx111/jd-gui) - APK/AAR対応版Java Decompiler GUI（要ビルド）
