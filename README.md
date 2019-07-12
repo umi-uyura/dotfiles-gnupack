@@ -120,6 +120,7 @@ $ curl -s "https://get.sdkman.io" | bash
 Install sdks
 
 ```
+$ sdk install java 11.0.3-zulu
 $ sdk install gradle
 $ sdk install kotlin
 $ sdk install kscript
@@ -184,7 +185,7 @@ Setting environment variables
 | ANDROID_HOME | C:\Android\android-sdk | Auto addition by Chocolatey (Android SDK) |
 | Android tools | %ANDROID_HOME%\tools | Auto addition by Chocolatey (Android SDK) |
 | Android platform-tools | %ANDROID_HOME%\platform-tools | Auto addition by Chocolatey (Android SDK) |
-| JAVA_HOME | C:\Program Files\Java\jdk1.8.0_131 | Auto addition by Chocolatey (JDK) |
+| JAVA_HOME | C:\Users\<user>\.sdkman\candidates\java\11.0.3-zulu | Configure according to JDK installed by SDKMAN |
 | GOROOT | C:\Go | Auto addition by Chocolatey (Golang) |
 
 
@@ -192,7 +193,7 @@ Setting environment variables
 
 | Name | Example | Remarks |
 |------|---------|---------|
-| JDK | C:\Program Files\Java\jdk1.8.0_131\bin | Auto addition by Chocolatey (JDK) |
+| JDK | %JAVA_HOME%\bin | - |
 | Go | %GOROOT%\bin | Auto addition by Chocolatey (Golang) |
 
 
