@@ -159,6 +159,7 @@ Setting environment variables
 | EMACS_HOME | %USERPROFILE%\.emacs.d | - |
 | SDKMAN_ROOT | %USERPROFILE%\.sdkman\candidates | - |
 | GOPATH | %USERPROFILE%\.go | - |
+| ANDROID_HOME | %USERPROFILE%\AppData\Local\Android\Sdk | Default by Android Studio installed by Chocolatey |
 
 #### Add PATH
 
@@ -168,8 +169,9 @@ Setting environment variables
 | dotfiles/bin | %GNUPACK_HOME%\dotfiles\bin | - |
 | .emacs/bin | %EMACS_HOME%\bin | - |
 | Chocolatey | %ChocolateyInstall%\bin | Auto addition by Chocolatey |
-| Android tools bin | %ANDROID_HOME%\tools\bin | - |
-| Android build-tools | %ANDROID_HOME%\build-tools\25.0.3 | - |
+| Android tools bin | %ANDROID_HOME%\tools\bin | ? |
+| Android build-tools | %ANDROID_HOME%\build-tools\29.0.1 | ? |
+| Android platform-tools | %ANDROID_HOME%\platform-tools | ? |
 | Dex2Jar | %ChocolateyInstall%\lib\dex2jar\tools | - |
 | PostgreSQL | C:\Program Files\PostgreSQL\10\bin | - |
 | sbt (SDKMAN) | %SDKMAN_ROOT%\sbt\0.13.15\bin | - |
@@ -182,9 +184,6 @@ Setting environment variables
 | Variable Name | Example | Remarks |
 |---------------|---------|---------|
 | ChocolateyInstall | C:\ProgramData\chocolatey | Auto addition by Chocolatey |
-| ANDROID_HOME | C:\Android\android-sdk | Auto addition by Chocolatey (Android SDK) |
-| Android tools | %ANDROID_HOME%\tools | Auto addition by Chocolatey (Android SDK) |
-| Android platform-tools | %ANDROID_HOME%\platform-tools | Auto addition by Chocolatey (Android SDK) |
 | JAVA_HOME | C:\Users\<user>\.sdkman\candidates\java\11.0.3-zulu | Configure according to JDK installed by SDKMAN |
 | GOROOT | C:\Go | Auto addition by Chocolatey (Golang) |
 
