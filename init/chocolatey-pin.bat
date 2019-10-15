@@ -8,6 +8,7 @@ choco pin add -n=heroku-cli
 choco pin add -n=insomnia-rest-api-client
 choco pin add -n=intellijidea-community
 choco pin add -n=postman
+choco pin add -n=typora
 choco pin add -n=vscode
 
 choco pin list
