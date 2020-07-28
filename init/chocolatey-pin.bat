@@ -1,6 +1,7 @@
 @echo off
 
 choco pin add -n=androidstudio
+choco pin add -n=docker-desktop
 choco pin add -n=Firefox
 choco pin add -n=github-desktop
 choco pin add -n=GoogleChrome
