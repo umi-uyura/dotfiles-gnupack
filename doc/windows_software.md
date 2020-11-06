@@ -20,6 +20,7 @@ Windows用ソフトウェア
     * インストールするためにJDK7(Chocolateyでインストール可)が必要
 * [XMind ※](https://jp.xmind.net/)
 * [CubePDF Page](https://www.cube-soft.jp/cubepdfpage/) - PDFページ結合・分割（他にもシリーズアプリあり）
+* [diff-pdf](https://vslavik.github.io/diff-pdf/) - PDF差分比較（コマンドラインツール）
 * [DevDocs Desktop ※](https://devdocs.egoist.moe/)
 * [PhotoDemon](https://photodemon.org/)
 * [nx111/jd-gui](https://github.com/nx111/jd-gui) - APK/AAR対応版Java Decompiler GUI（要ビルド）
