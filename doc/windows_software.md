@@ -36,6 +36,8 @@ Windows用ソフトウェア
 * <s> [DeskDock Server](http://fdmobileinventions.blogspot.jp/p/deskdock-server.html) </s>
 * [SwitchHosts\!](https://oldj.github.io/SwitchHosts/)
 * [Mini Mouse Macro](https://www.turnssoft.com/mini-mouse-macro.html) - gnupack Emacsが起動後一度マウスで動かさないと日本語入力が効かないため
+* [thomasliddledba/kubectxwin](https://github.com/thomasliddledba/kubectxwin) - Windows用kubectx
+* [thomasliddledba/kubenswin](https://github.com/thomasliddledba/kubenswin) - Windows用kubens
 
 
 ストアアプリ
