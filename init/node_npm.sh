@@ -36,3 +36,4 @@ npm install -g chokidar-cli
 npm install -g depcheck
 npm install -g npm-check-updates
 npm install -g ghwd
+npm install -g gitmoji-cli
