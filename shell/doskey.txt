@@ -1,3 +1,4 @@
 ~=cd %HOME%
+fastrm=fastcopy /cmd=delete /auto_close $1
 kubens=kubenswin
 kubectx=kubectxwin
