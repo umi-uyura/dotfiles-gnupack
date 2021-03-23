@@ -29,6 +29,7 @@ npm install -g plato
 npm install -g hint
 
 # Documentation
+npm i -g @marp-team/marp-cli
 npm i -g gitbook-cli
 
 # Utilities
