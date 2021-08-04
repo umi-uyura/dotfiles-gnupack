@@ -175,22 +175,23 @@ fi
 #
 # Python 3 pip
 #
-skiptag "${TAG_PYTHON}"
-SKIP_PYTHON=$?
 
-if [ 0 -ne $SKIP_PYTHON ]; then
-  # if [ $UPGRADE ]; then
-  #   echo
-  #   echo "### Updating Python 3 pakcages ..."
-  #   echo
-  #   # pip3 list --outdated --format=legacy | awk '{print $1}' | xargs pip2 install -U
-  # else
-    echo
-    echo "### Checking for Python 3 package updates ..."
-    echo
-    pip3 list --outdated
-  # fi
-fi
+# skiptag "${TAG_PYTHON}"
+# SKIP_PYTHON=$?
+#
+# if [ 0 -ne $SKIP_PYTHON ]; then
+#   # if [ $UPGRADE ]; then
+#   #   echo
+#   #   echo "### Updating Python 3 pakcages ..."
+#   #   echo
+#   #   # pip3 list --outdated --format=legacy | awk '{print $1}' | xargs pip2 install -U
+#   # else
+#     echo
+#     echo "### Checking for Python 3 package updates ..."
+#     echo
+#     pip3 list --outdated
+#   # fi
+# fi
 
 
 #
@@ -224,23 +225,26 @@ fi
 #
 # Rubygems
 #
-skiptag "${TAG_RUBYGEMS}"
-SKIP_RUBYGEMS=$?
+#
+# skiptag "${TAG_RUBYGEMS}"
+# SKIP_RUBYGEMS=$?
+#
+# alias gem='gem.cmd'
+#
+# if [ 0 -ne $SKIP_RUBYGEMS ]; then
+#   if [ $UPGRADE ]; then
+#     echo
+#     echo "### Updating Rubygems ..."
+#     echo
+#     gem update --system
+#     gem update
+#     gem clean
+#   else
+#     echo
+#     echo "### Checking for Rubygem updates ..."
+#     echo
+#     gem outdated
+#   fi
+# fi
 
-alias gem='gem.cmd'
 
-if [ 0 -ne $SKIP_RUBYGEMS ]; then
-  if [ $UPGRADE ]; then
-    echo
-    echo "### Updating Rubygems ..."
-    echo
-    gem update --system
-    gem update
-    gem clean
-  else
-    echo
-    echo "### Checking for Rubygem updates ..."
-    echo
-    gem outdated
-  fi
-fi
