@@ -8,11 +8,10 @@ TAG_DOTFILES="dotfiles"
 TAG_DOTEMACS="dotemacs"
 TAG_EMACSCASK="emacscask"
 TAG_CHOCO="choco"
-TAG_SDKMAN="sdkman"
 TAG_PYTHON="python"
 TAG_NODE="node"
 TAG_RUBYGEMS="rubygems"
-TAGS=($TAG_DOTFILES $TAG_DOTEMACS $TAG_EMACSCASK $TAG_CHOCO $TAG_SDKMAN $TAG_PYTHON $TAG_NODE $TAG_RUBYGEMS)
+TAGS=($TAG_DOTFILES $TAG_DOTEMACS $TAG_EMACSCASK $TAG_CHOCO $TAG_PYTHON $TAG_NODE $TAG_RUBYGEMS)
 
 #
 # My update function
@@ -144,30 +143,6 @@ if [ 0 -ne $SKIP_CHOCO ]; then
     echo "### Checking for Chocolatey updates ..."
     echo
     choco outdated --ignore-pinned
-  # fi
-fi
-
-
-#
-# SDKMAN
-#
-skiptag "${TAG_SDKMAN}"
-SKIP_SDKMAN=$?
-
-if [ 0 -ne $SKIP_SDKMAN ]; then
-  source ~/.sdkman/bin/sdkman-init.sh
-
-  # if [ $UPGRADE ]; then
-  #   echo
-  #   echo "### Updating SDKMAN packages ..."
-  #   echo
-  #   sdk outdated
-  # else
-    echo
-    echo "### Checking for SDKMAN updates ..."
-    echo
-    sdk update
-    sdk upgrade
   # fi
 fi
 
