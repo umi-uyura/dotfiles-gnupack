@@ -181,7 +181,6 @@ if [ 0 -ne $SKIP_NODE ]; then
     # echo "### Updating NPM ..."
     # echo
     # npm install -g npm
-    # nodist npm latest
 
     echo
     echo "### Updating Node packages ..."

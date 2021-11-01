@@ -13,7 +13,6 @@ npm install -g json-server
 npm install -g easymock
 npm install -g js-beautify
 npm install -g quicktype
-npm install -g npx          # for Nodist
 
 # Vue.js
 npm install -g @vue/devtools
