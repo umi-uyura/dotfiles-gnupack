@@ -22,7 +22,7 @@ npm install -g @vue/cli-service-global
 # Linter
 npm install -g eslint
 npm install -g eslint-plugin-vue
-npm install -g eslint-plugin-react
+# npm install -g eslint-plugin-react
 npm install -g jsonlint-mod
 npm install -g plato
 npm install -g hint
