@@ -1,15 +1,15 @@
 @echo off
 
-choco pin add -n=androidstudio
-choco pin add -n=docker-desktop
-choco pin add -n=Firefox
-choco pin add -n=github-desktop
-choco pin add -n=GoogleChrome
-choco pin add -n=heroku-cli
-choco pin add -n=insomnia-rest-api-client
-choco pin add -n=intellijidea-community
-choco pin add -n=postman
-choco pin add -n=typora
-choco pin add -n=vscode
+rem choco pin add -n=androidstudio
+rem choco pin add -n=docker-desktop
+rem choco pin add -n=Firefox
+rem choco pin add -n=github-desktop
+rem choco pin add -n=GoogleChrome
+rem choco pin add -n=heroku-cli
+rem choco pin add -n=insomnia-rest-api-client
+rem choco pin add -n=intellijidea-community
+rem choco pin add -n=postman
+rem choco pin add -n=typora
+rem choco pin add -n=vscode
 
 choco pin list
