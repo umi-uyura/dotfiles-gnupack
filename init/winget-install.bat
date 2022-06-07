@@ -18,7 +18,6 @@ rem winget install -s winget -e --id Flameshot.Flameshot
 winget install -s winget -e --id ImageMagick.ImageMagick
 winget install -s winget -e --id Heroku.HerokuCLI
 winget install -s winget -e --id GoLang.Go
-winget install -s winget -e --id Typora.Typora
 winget install -s winget -e --id Postman.Postman
 winget install -s winget -e --id KeePassXCTeam.KeePassXC
 winget install -s winget -e --id Microsoft.OpenJDK.11
@@ -34,6 +33,7 @@ winget install -s winget -e --id NickeManarin.ScreenToGif
 winget install -s winget -e --id Adobe.Acrobat.Reader.64-bit
 winget install -s winget -e --id Qalculate.Qalculate
 winget install -s winget -e --id MarkText.MarkText
+winget install -s winget -e --id Zettlr.Zettlr
 winget install -s winget -e --id LibreOffice.LibreOffice
 winget install -s winget -e --id AntoniKepinski.ParsifyDesktop
 
