@@ -35,6 +35,7 @@ winget install -s winget -e --id Adobe.Acrobat.Reader.64-bit
 winget install -s winget -e --id Qalculate.Qalculate
 winget install -s winget -e --id MarkText.MarkText
 winget install -s winget -e --id LibreOffice.LibreOffice
+winget install -s winget -e --id AntoniKepinski.ParsifyDesktop
 
 winget install -s winget -e --id ArtifexSoftware.GhostScript --version 9.52
 
